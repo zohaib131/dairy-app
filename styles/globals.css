@@ -1,0 +1,50 @@
+*{
+  background-color:rgb(205, 205, 255);
+}
+.header{
+  text-align: center;
+}
+.productList{
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-size: large;
+  font-family: Arial,  sans-serif;
+}
+
+.addProudctForm {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addProductForm h2 {
+  text-align: center;
+}
+
+.addProductForm form {
+  display: grid;
+  gap: 10px;
+}
+
+.addProductForm input {
+  padding: 10px;
+  border: 1px solid #ddd;
+ background-color: white;
+  border-radius: 5px;
+}
+
+.addProductForm button {
+  padding: 10px;
+  background-color: #2890a7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addProductForm button:hover {
+  background-color: #216b88;
+}
